@@ -4,8 +4,8 @@ geheimnis = random.randit(1, 99)
 tip = 0
 versuche = 0
 print "AHOI! Ich bin der berüchtigte Kapitän Hook und habe ein "Geheimnis"!"
-print "Es ist eine Zahl zwischen 1 und 99. Du hast 6 Versuche."
-while tipp != geheimnis and versuche < 6:
+print "Es ist eine Zahl zwischen 1 und 99. Du hast 10 Versuche."
+while tipp != geheimnis and versuche < 10:
 	tipp = input ("Was rätst du?")
 	if tipp < geheimnis:
 		print "Zu niedrig, du Landratte!"
